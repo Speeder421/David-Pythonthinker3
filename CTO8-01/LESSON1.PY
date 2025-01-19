@@ -11,9 +11,9 @@ n=len(list)
 def bubble_sort(numbers):
     for i in range(n):
         for j in range(0,n-i,-1):
-            if numbers[i]>numbers[i+1]:
+            if numbers[j]>numbers[j+1]:
                 item=numbers[i+1]
-                numbers[i+1]=numbers[i]
+                numbers[j+1]=numbers[i]
                 numbers[i]=item
         return numbers
 ordered=bubble_sort(list) # you never assign to a variable
