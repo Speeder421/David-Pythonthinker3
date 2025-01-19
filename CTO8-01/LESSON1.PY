@@ -8,7 +8,7 @@
 # print(is_ascending(list))
 
 def bubble_sort(numbers):
-    for o in (len(numbers)):
+    for o in range(len(numbers)):
         for i in range(len(numbers)-1):
             if numbers[i]>numbers[i+1]:
                 item=numbers[i+1]
