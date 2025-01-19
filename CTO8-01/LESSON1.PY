@@ -7,14 +7,15 @@
 # is_ascending(list)
 # print(is_ascending(list))
 list=[9,6,3,25,21,8,23,1,17,14]
-n=len(list)
+
 def bubble_sort(numbers):
+    n=len(list)
     for i in range(n):
-        for j in range(0,n-i,-1):
+        for j in range(n-i,-1):
             if numbers[j]>numbers[j+1]:
                 item=numbers[j+1]
                 numbers[j+1]=numbers[j]
                 numbers[j]=item
         return numbers
-ordered=bubble_sort(list) # you never assign to a variable
+ordered=bubble_sort(list) 
 print(ordered)
