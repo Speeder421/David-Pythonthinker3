@@ -9,7 +9,7 @@
 
 def bubble_sort(numbers):
     for o in range(len(numbers)):
-        for i in range(0,):
+        for i in range():
             if numbers[i]>numbers[i+1]:
                 item=numbers[i+1]
                 numbers[i+1]=numbers[i]
