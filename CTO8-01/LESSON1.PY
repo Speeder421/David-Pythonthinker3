@@ -16,5 +16,5 @@ def bubble_sort(numbers):
                 numbers[i]=item
         return numbers
 list=[9,6,3,25,21,8,23,1,17,14]
-bubble_sort(list) # you never assign to a variable
+ordered=bubble_sort(list) # you never assign to a variable
 print(list)
