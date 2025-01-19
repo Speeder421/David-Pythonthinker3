@@ -13,7 +13,7 @@ def bubble_sort(numbers):
             if numbers[i]>numbers[i+1]:
                 item=numbers[i+1]
                 numbers[i+1]=numbers[i]
-                numbers[j]=item
+                numbers[i]=item
         return numbers
 bubble_sort(list)
 list=[9,6,3,25,21,8,23,1,17,14]
