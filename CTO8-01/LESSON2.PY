@@ -44,7 +44,6 @@ show_menu(item)
 order=input("Enter order, type end to end.")
 def take_order(order,menu,customer_order):
     while order != "end":
-        order=input("Enter order, type end to end.")
         if order in menu:
             print(f"{order} has been added to your order")
             customer_order[order]=menu[order]
