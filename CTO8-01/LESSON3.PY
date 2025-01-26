@@ -6,7 +6,8 @@ item={
     "eraser":0.50,
     "writing pad":2.50,
     "marker":2.00,
-    "glue":3.00
+    "glue":3.00,
+    "calculator":35.00
 }
 def show_menu(menu):
     print("-----Welcome to HanBAoBAo restaraunt----")
