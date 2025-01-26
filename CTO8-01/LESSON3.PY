@@ -1,4 +1,4 @@
-item={
+items={
     "notebook":2.50,
     "pencil":0.50,
     "pen":1.20,
