@@ -42,7 +42,5 @@ def show_menu(menu):
 
 show_menu(item)
 
-# def ordering(menu):
-#     order=input("What would you like to have?")
-#     if order in menu:
+
 
