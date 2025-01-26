@@ -48,6 +48,7 @@ def take_order(order,menu,customer_order):
             print(f"{order} has been added to your order")
             customer_order[order]=menu[order]
             return customer_order
+            
         else:
             print(f"Sorry we do not have {order}")
             return customer_order
@@ -68,6 +69,6 @@ show_menu(item)
 order=input("Enter order, type end to end.")
 while order!="end":
     take_order(order,item,customer_order)
-    break
+
 else:
     tallycost(customer_order)
