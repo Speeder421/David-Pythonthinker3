@@ -43,7 +43,6 @@ def show_menu(menu):
 show_menu(item)
 def take_order(menu,customer_order):
     while order != "end":
-        
         order=input("Enter order, type end to end.")
         if order in menu:
             print(f"{order} has been added to your order")
