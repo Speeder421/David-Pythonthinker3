@@ -46,7 +46,7 @@ def take_order(order,menu,customer_order):
     order=input("Enter order, type no more to end.")
     if order in menu:
         print(f"{order} has been added to your order")
-        customer_order[order]=order
+        customer_order[order]=menu[order]
     
 
 
