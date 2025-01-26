@@ -34,7 +34,7 @@ item={
     "coke":1.50
 }
 def show_menu(menu):
-    print("-----Welcome to HanBAoBAo restaraunt")
+    print("-----Welcome to HanBAoBAo restaraunt----")
     print("This is our menu")
     for food,price in menu.items():
         print(f"{food:^20} :$ {price:.2f}")
