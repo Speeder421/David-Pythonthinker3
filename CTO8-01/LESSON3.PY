@@ -3,8 +3,8 @@ item={
     "pencil":0.50,
     "pen":1.20,
     "ruler":1.50,
-    "eraser":,
-    "apple pie":2.00,
+    "eraser":0.50,
+    "":2.00,
     "coke":1.50
 }
 def show_menu(menu):
