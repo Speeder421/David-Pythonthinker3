@@ -47,7 +47,7 @@ def take_order(menu,customer_order):
         print(f"{order} has been added to your order")
         customer_order[order]=menu[order]
     else:
-        print("Sorry we do not have {order}")
+        print(f"Sorry we do not have {order}")
     
 
 customer_order={}
