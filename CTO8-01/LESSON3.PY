@@ -1,6 +1,6 @@
 item={
-    "notebook":5.50,
-    "double bacon burger":7.90,
+    "notebook":2.50,
+    "pencil":7.90,
     "french fries":2.80,
     "cheese fries":3.00,
     "chocolate sundae":3.20,
