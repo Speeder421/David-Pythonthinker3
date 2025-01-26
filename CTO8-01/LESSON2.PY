@@ -40,8 +40,6 @@ def show_menu(menu):
         print(f"{food:^20} :$ {price:.2f}")
     print("-----This is the end of the menu-----")
 
-
-
 def take_order(order,menu,customer_order):
         if order in menu:
             print(f"{order} :$ {menu[order]}")
