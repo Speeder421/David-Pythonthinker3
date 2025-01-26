@@ -63,4 +63,4 @@ def tallycost(customer_order):
 
 customer_order={}
 take_order(order,item,customer_order)
-tallycost()
+tallycost(customer_order)
