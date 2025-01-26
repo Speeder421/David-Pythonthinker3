@@ -57,6 +57,7 @@ def tallycost(customer_order):
     for food,price in customer_order.items():
         print(f"{food} :$ {price}")
     print("-----------------")
+    print
 
     
 
