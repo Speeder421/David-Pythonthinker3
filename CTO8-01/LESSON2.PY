@@ -45,6 +45,7 @@ order=input("Enter order, type end to end.")
 def take_order(order,menu,customer_order):
         if order in menu:
             print(f"{order} :$ {menu[order]}")
+            input
             print(f"{order} has been added to your order")
             customer_order[order]=menu[order]
         elif order=="end":
