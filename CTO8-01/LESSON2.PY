@@ -47,6 +47,7 @@ def take_order(order,menu,customer_order):
             print(f"{order} :$ {menu[order]}")
             print(f"{order} has been added to your order")
             customer_order[order]=menu[order]
+            return customer_order
         elif order=="end":
             print(customer_order)
         else:
