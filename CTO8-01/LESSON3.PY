@@ -10,7 +10,7 @@ item={
     "calculator":35.00
 }
 def show_menu(menu):
-    print("-----Welcome to the best ----")
+    print("-----Welcome to the best bookshop in the world----")
     print("This is our menu")
     for food,price in menu.items():
         print(f"{food:^20} :$ {price:.2f}")
