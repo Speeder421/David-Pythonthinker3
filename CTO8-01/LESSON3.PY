@@ -1,0 +1,48 @@
+item={
+    "notebook":5.50,
+    "double bacon burger":7.90,
+    "french fries":2.80,
+    "cheese fries":3.00,
+    "chocolate sundae":3.20,
+    "apple pie":2.00,
+    "coke":1.50
+}
+def show_menu(menu):
+    print("-----Welcome to HanBAoBAo restaraunt----")
+    print("This is our menu")
+    for food,price in menu.items():
+        print(f"{food:^20} :$ {price:.2f}")
+    print("-----This is the end of the menu-----")
+
+def take_order(order,menu,customer_order):
+        if order in menu:
+            print(f"{order} :$ {menu[order]}")
+            print(f"{order} has been added to your order")
+            customer_order[order]=menu[order]
+            return customer_order
+        else:
+            print(f"Sorry we do not have {order}")
+            return customer_order
+
+def tallycost(customer_order):
+    cost=0
+    print("---Order summary---")
+    for food,price in customer_order.items():
+        cost+=price
+        print(f"{food} :$ {price}")
+    print("-----------------")
+    print(f"Total cost: ${cost}")
+
+    
+
+customer_order={}
+show_menu(item)
+order=input("Enter order, type end to end.")
+while order!="end":
+    take_order(order,item,customer_order)
+    order=input("Enter order, type end to end.")
+
+else:
+    tallycost(customer_order)
+print("Will you be paying by cash or card?")
+
