@@ -42,6 +42,6 @@ def show_menu(menu):
 
 show_menu(item)
 def take_order(order,menu,customer_order):
-    order
+    order=input("")
 
 
