@@ -50,4 +50,4 @@ def take_order(menu,customer_order):
     
 
 customer_order={}
-take_order(item)
+take_order(item,customer_order)
