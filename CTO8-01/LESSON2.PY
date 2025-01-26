@@ -47,6 +47,7 @@ def take_order(order,menu,customer_order):
         if order in menu:
             print(f"{order} has been added to your order")
             customer_order[order]=menu[order]
+            break
         else:
             print(f"Sorry we do not have {order}")
     
