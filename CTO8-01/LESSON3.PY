@@ -2,7 +2,7 @@ item={
     "notebook":2.50,
     "pencil":0.50,
     "pen":1.20,
-    "cheese fries":3.00,
+    "":3.00,
     "chocolate sundae":3.20,
     "apple pie":2.00,
     "coke":1.50
