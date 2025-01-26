@@ -41,6 +41,7 @@ def show_menu(menu):
     print("-----This is the end of the menu-----")
 
 show_menu(item)
+order=input("Enter order, type end to end.")
 def take_order(menu,customer_order):
     while order != "end":
         order=input("Enter order, type end to end.")
