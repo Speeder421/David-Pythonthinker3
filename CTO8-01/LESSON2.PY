@@ -40,4 +40,4 @@ def show_menu(item):
         print(f"{food} :$ {price:.2f}")
     print("***This is the end of the menu***")
 show_menu(item)
-input("What would you like to have?")
+customerchoice=input("What would you like to have?")
