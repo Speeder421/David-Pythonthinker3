@@ -12,7 +12,7 @@ items={
 def show_menu(menu):
     print("-----Welcome to the best bookshop in the world----")
     print("This is our menu")
-    for food,price in menu.items():
+    for item,price in menu.items():
         print(f"{item:^20} :$ {price:.2f}")
     print("-----This is the end of the menu-----")
 
