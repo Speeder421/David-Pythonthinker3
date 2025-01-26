@@ -70,4 +70,5 @@ while order!="end":
 
 else:
     tallycost(customer_order)
-    
+print("")
+
