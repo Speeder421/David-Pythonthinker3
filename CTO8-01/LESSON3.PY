@@ -4,7 +4,7 @@ item={
     "pen":1.20,
     "ruler":1.50,
     "eraser":0.50,
-    "":2.00,
+    "writing pad":2.50,
     "coke":1.50
 }
 def show_menu(menu):
