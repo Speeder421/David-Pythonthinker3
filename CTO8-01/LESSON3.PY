@@ -38,10 +38,10 @@ def tallycost(customer_order):
     
 
 customer_order={}
-show_menu(item)
+show_menu(items)
 order=input("Enter order, type end to end.")
 while order!="end":
-    take_order(order,item,customer_order)
+    take_order(order,items,customer_order)
     order=input("Enter order, type end to end.")
 
 else:
