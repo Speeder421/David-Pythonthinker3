@@ -33,7 +33,7 @@ item={
     "apple pie":2.00,
     "coke":1.50
 }
-def show_menu(item):
+def show_menu(menu):
     print("******Welcome to HanBAoBAo restaraunt!******")
     print("***This is our menu***")
     for food,price in item.items():
