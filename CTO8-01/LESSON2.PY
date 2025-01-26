@@ -49,5 +49,5 @@ def take_order(order,menu,customer_order):
         print(customer_order)
     
 
-customer_order()
+customer_order={}
 take_order(item)
