@@ -42,7 +42,7 @@ def show_menu(menu):
 
 show_menu(item)
 order=input("Enter order, type end to end.")
-def take_order(menu,customer_order):
+def take_order(order,menu,customer_order):
     while order != "end":
         order=input("Enter order, type end to end.")
         if order in menu:
@@ -53,4 +53,4 @@ def take_order(menu,customer_order):
     
 
 customer_order={}
-take_order(item,customer_order)
+take_order(ordeeritem,customer_order)
