@@ -36,7 +36,7 @@ item={
 def show_menu(menu):
     print("******Welcome to HanBAoBAo restaraunt!******")
     print("***This is our menu***")
-    for food,price in item.items():
+    for food,price in menu.items():
         print(f"{food} :$ {price:.2f}")
     print("***This is the end of the menu***")
 show_menu(item)
