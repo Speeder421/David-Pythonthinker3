@@ -51,6 +51,10 @@ def take_order(order,menu,customer_order):
         else:
             print(f"Sorry we do not have {order}")
             return customer_order
+
+def tallycost(customer_order):
+    print("")
+
     
 
 customer_order={}
