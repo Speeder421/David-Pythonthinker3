@@ -65,5 +65,7 @@ def tallycost(customer_order):
 
 customer_order={}
 show_menu(item)
-take_order(order,item,customer_order)
+while order!="end":
+
+    take_order(order,item,customer_order)
 tallycost(customer_order)
