@@ -13,7 +13,7 @@ def show_menu(menu):
     print("-----Welcome to the best bookshop in the world----")
     print("This is our menu")
     for food,price in menu.items():
-        print(f"{food:^20} :$ {price:.2f}")
+        print(f"{item:^20} :$ {price:.2f}")
     print("-----This is the end of the menu-----")
 
 def take_order(order,menu,customer_order):
