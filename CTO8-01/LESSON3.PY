@@ -5,7 +5,7 @@ item={
     "ruler":1.50,
     "eraser":0.50,
     "writing pad":2.50,
-    "coke":1.50
+    "marker":2.5
 }
 def show_menu(menu):
     print("-----Welcome to HanBAoBAo restaraunt----")
