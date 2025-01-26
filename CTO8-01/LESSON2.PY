@@ -37,8 +37,12 @@ def show_menu(menu):
     print("******Welcome to HanBAoBAo restaraunt!******")
     print("***This is our menu***")
     for food,price in menu.items():
-        print(f"{food} :$ {price:.2f}")
+        print(f"{food:^20} :$ {price:.2f}")
     print("***This is the end of the menu***")
+
 show_menu(item)
-def ordering(menu):
-    order=input("What would you like to have?")
+
+# def ordering(menu):
+#     order=input("What would you like to have?")
+#     if order in menu:
+
