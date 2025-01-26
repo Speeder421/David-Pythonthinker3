@@ -68,5 +68,6 @@ show_menu(item)
 order=input("Enter order, type end to end.")
 while order!="end":
     take_order(order,item,customer_order)
+    break
 else:
     tallycost(customer_order)
