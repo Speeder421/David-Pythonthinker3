@@ -41,6 +41,7 @@ def show_menu(menu):
     print("-----This is the end of the menu-----")
 
 show_menu(item)
+def take_order(order,menu,customer_order):
 
 
 
