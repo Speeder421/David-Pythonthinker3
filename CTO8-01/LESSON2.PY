@@ -67,4 +67,5 @@ customer_order={}
 show_menu(item)
 while order!="end":
     take_order(order,item,customer_order)
+else:
     tallycost(customer_order)
