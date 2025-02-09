@@ -3,7 +3,7 @@
 
 # greetuser("david")
 def calculate(length, width):
-    return lenght*width
+    return length*width
 
 
 
