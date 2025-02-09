@@ -5,7 +5,7 @@
 def calculate(length, width):
     return length*width
 def perimeter(lenght,width):
-    return 2*(length+)
+    return 2*(length+width)
 
 
 
