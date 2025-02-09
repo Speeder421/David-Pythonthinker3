@@ -1,7 +1,9 @@
-def greetuser(name):
-    print(f"hi user {name}")
+# def greetuser(name):
+#     print(f"hi user {name}")
 
-greetuser("david")
+# greetuser("david")
+def calculate(length, width):
+    return lenght*width
 
 
 
