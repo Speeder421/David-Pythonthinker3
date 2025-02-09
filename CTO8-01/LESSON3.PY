@@ -56,7 +56,7 @@ while order!="end":
     order=input("Enter order, type end to end.")
 
 else:
-    tallycost(customer_order)
+    tallycost(customer_order,cost)
     discount(cost)
 print("Will you be paying by cash or card?")
 
