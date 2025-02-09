@@ -22,7 +22,7 @@ def take_order(order,menu,customer_order):
             print(f"{order} :$ {menu[order]}")
             quantity=input(f"How many {order}s would you like?")
             if quantity>1:
-                customer_order[order]={"quantity":quantity,"value":quantity}
+                customer_order[order]={"quantity":quantity,"value":quantity*menu[order]}
             print(f"{quantity} {order} has been added to your order")
             customer_order[order]=menu[order]
             return customer_order
