@@ -4,6 +4,8 @@
 # greetuser("david")
 def calculate(length, width):
     return length*width
+def perimeter(lenght,width):
+    return 2
 
 
 
