@@ -9,6 +9,7 @@ def perimeter(lenght,width):
 lenght=6
 width=4
 area = calculate(lenght,width)
+perimeter()
 
 
 
