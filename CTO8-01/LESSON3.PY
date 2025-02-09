@@ -39,6 +39,10 @@ def tallycost(customer_order):
     print("-----------------")
     print(f"Total cost: ${cost}")
 
+def discount(price):
+    if price>20:
+        90
+
     
 
 customer_order={}
