@@ -2,7 +2,7 @@
 #     print(f"hi user {name}")
 
 # greetuser("david")
-def calculate(length:int, width:):
+def calculate(length:int, width:int):
     return length*width
 def perimeter(lenght,width):
     return 2*(lenght+width)
