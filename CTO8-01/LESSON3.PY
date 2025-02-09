@@ -20,7 +20,7 @@ def show_menu(menu):
 def take_order(order,menu,customer_order):
         if order in menu:
             print(f"{order} :$ {menu[order]}")
-            input(f"How many {order}s would you like?")
+            quantity=input(f"How many {order}s would you like?")
             print(f"{order} has been added to your order")
             customer_order[order]=menu[order]
             return customer_order
