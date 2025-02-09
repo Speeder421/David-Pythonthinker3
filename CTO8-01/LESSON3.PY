@@ -57,6 +57,6 @@ while order!="end":
 
 else:
     discount(cost)
-    tallycost(customer_order,cost)
+    tallycost(customer_order,cost,newprice)
 print("Will you be paying by cash or card?")
 
