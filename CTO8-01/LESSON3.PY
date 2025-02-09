@@ -48,6 +48,7 @@ def discount(price):
     
 
 customer_order={}
+cost=0
 show_menu(items)
 order=input("Enter order, type 'end' to end.")
 while order!="end":
@@ -56,6 +57,6 @@ while order!="end":
 
 else:
     tallycost(customer_order)
-    discount()
+    discount(cost)
 print("Will you be paying by cash or card?")
 
