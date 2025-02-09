@@ -42,6 +42,9 @@ def tallycost(customer_order):
 def discount(price):
     if price>20:
         newprice=(90/100)*price
+        
+    else:
+        pass
 
     
 
