@@ -38,9 +38,6 @@ def tallycost(customer_order,cost,newprice):
     print("-----------------")
     print(f"Total cost: ${cost}")
 
-    if price>20:
-        newprice=(90/100)*price
-        return newprice
   
 
     
