@@ -32,9 +32,10 @@ def take_order(order,menu,customer_order):
 def tallycost(customer_order):
     cost=0
     print("---Order summary---")
-    for item,quantity_value in customer_order.items():
-        cost+=price
-        print(f"{item} :$ {price}")
+    for item,price in customer_order.items():
+        for quantity,value in price.items():
+            cost+=value
+            print(f"{item} :$ {price}")
     print("-----------------")
     print(f"Total cost: ${cost}")
 
