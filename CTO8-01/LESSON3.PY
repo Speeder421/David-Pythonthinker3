@@ -36,7 +36,7 @@ def tallycost(customer_order,cost):
         cost+=float(value)
         print(f"{quantity} {item}(s) :$ {price}")
         if cost>20:
-            newprice=(90/100)*price
+            newprice=(90/100)*cost
             print("-----------------")
             print(f"Total cost: ${newprice}")
         else:
