@@ -40,9 +40,6 @@ def tallycost(customer_order,cost,newprice):
             print("-----------------")
             print(f"Total cost: ${newprice}")
         else:
-
-            
-        
             print("-----------------")
             print(f"Total cost: ${cost}")
 
