@@ -38,12 +38,10 @@ def tallycost(customer_order,cost,newprice):
     print("-----------------")
     print(f"Total cost: ${cost}")
 
-def discount(price):
     if price>20:
         newprice=(90/100)*price
         return newprice
-    else:
-        pass
+  
 
     
 
