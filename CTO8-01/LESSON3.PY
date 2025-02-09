@@ -28,8 +28,7 @@ def take_order(order,menu,customer_order):
             print(f"Sorry we do not have {order}")
             return customer_order
 
-def tallycost(customer_order):
-    cost=0
+def tallycost(customer_order,cost):
     print("---Order summary---")
     for item,price in customer_order.items():
         quantity=price["quantity"]
