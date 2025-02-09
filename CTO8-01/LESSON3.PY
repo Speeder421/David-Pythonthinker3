@@ -33,7 +33,7 @@ def tallycost(customer_order):
     cost=0
     print("---Order summary---")
     for item,price in customer_order.items():
-        for quantity,value in price.items():
+        
             cost+=int(value)
             print(f"{quantity} {item}(s) :$ {price}")
     print("-----------------")
