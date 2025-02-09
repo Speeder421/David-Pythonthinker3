@@ -12,7 +12,7 @@ items={
 def show_menu(menu):
     print("-----Welcome to the best bookshop in the world----")
     print("This is our menu")
-    print("Please note: There is a 10%")
+    print("Please note: There is a 10% discount for orders above $20")
     for item,price in menu.items():
         print(f"{item:^20} :$ {price:.2f}")
     print("-----This is the end of the menu-----")
