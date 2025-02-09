@@ -1,5 +1,5 @@
-def greetuser():
-    
+def greetuser(name):
+    print(f"hi user {name}")
 
 
 
