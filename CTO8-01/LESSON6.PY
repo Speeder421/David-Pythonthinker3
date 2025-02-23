@@ -28,7 +28,7 @@ def average(scores):
 def highestscorer(scores):
     high=[]
     for name,score in scores.items():
-        high.append
+        high.append()
         
 
 
