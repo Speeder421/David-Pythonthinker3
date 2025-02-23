@@ -26,9 +26,13 @@ def average(scores):
     return average
 
 def highestscorer(scores):
-    
+    topppl=[]
     for name,score in scores.items():
-        highestscore=max(sc)
+        highestscore=max(score)
+        for i in scores.values():
+            if i==highestscore:
+                topp
+
         
         
 
