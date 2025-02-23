@@ -52,7 +52,7 @@ def menu():
     print("3. Notify low attendence")
     print("4. Exit programme")
     choice=input("Enter your choice:")
-    
+    return choice
 
 
 
