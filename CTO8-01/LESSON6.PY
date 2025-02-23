@@ -20,7 +20,7 @@ def average(scores):
     total=0
     for score in scores.value():
         score+=total
-    total/len
+    total/len()
 
 
 
