@@ -63,6 +63,7 @@ choice=input("Enter your choice:")
 while True:
     if choice=="1":
         updatedstudents=takeattendence(students)
+        print(updatedstudents)
     elif choice=="2":
         percentage(students,student)
     elif choice=="3":
