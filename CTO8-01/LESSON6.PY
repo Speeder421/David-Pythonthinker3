@@ -29,9 +29,8 @@ def highestscorer(scores):
     topppl=[]
     highestscore=max(scores.values())
     for name,score in scores.items():
-        for i in scores.values():
-            if i==highestscore:
-                topppl.append(name)
+        if i==highestscore:
+            topppl.append(name)
     return topppl
 
 
