@@ -56,17 +56,17 @@ def menu():
 
 
 
-def work(choice):
-    while True:
-        if choice=="1":
-            takeattendence(students)
-        elif choice=="2":
-            percentage(students,student)
-        elif choice=="3":
-            notify(students,min)
-        elif choice=="4":
-            break
-        else:
+
+while True:
+    if choice=="1":
+        takeattendence(students)
+    elif choice=="2":
+        percentage(students,student)
+    elif choice=="3":
+        notify(students,min)
+    elif choice=="4":
+        break
+    else:
             print("There is no such action!")
 
 
