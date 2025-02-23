@@ -60,6 +60,7 @@ print(notify(students,min))
 
 while True:
     menu()
+    choice=input("Enter your choice:")
     if choice=="1":
         updatedstudents=takeattendence(students)
         print(updatedstudents)
