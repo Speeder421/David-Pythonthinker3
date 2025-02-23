@@ -51,8 +51,9 @@ def menu():
     print("2. Calculate attendence percentage for a student")
     print("3. Notify low attendence")
     print("4. Exit programme")
-    input("Enter your choice:")
+    choice=input("Enter your choice:")
     
+
 
 
 min=50.0
