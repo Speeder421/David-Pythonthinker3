@@ -33,7 +33,7 @@ def notify(students,min):
     low=[]
     for name,attend in students.items():
         attendence=(percentage(students,name))
-        if attend<min:
+        if attendence<min:
             low.append(name)
             print(f"Warning! {name} has a low attendence of {attendence}!")
     return low
