@@ -18,7 +18,7 @@ def gradestudents(answerkey,studentanswers):
 
 def average(scores):
     for score in scores.value():
-        score
+        score+=total
 
 
 
