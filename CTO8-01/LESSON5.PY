@@ -56,6 +56,11 @@ def menu():
 
 
 
+
+
+
+
+
 min=50.0
 updatedstudents=takeattendence(students)
 print(updatedstudents)
