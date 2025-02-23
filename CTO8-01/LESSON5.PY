@@ -66,7 +66,7 @@ while True:
         print(percentage(students,student))
     elif choice=="3":
         notify(students,min)
-        print(f"")
+        print(f"Students with a low attendece")
     elif choice=="4":
         print("Exiting...")
         break
