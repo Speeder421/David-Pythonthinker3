@@ -29,7 +29,7 @@ def highestscorer(scores):
     topppl=[]
     highestscore=max(scores.values())
     for name,score in scores.items():
-        if i==highestscore:
+        if score==highestscore:
             topppl.append(name)
     return topppl
 
