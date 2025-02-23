@@ -28,7 +28,7 @@ def average(scores):
 def highestscorer(scores):
     topppl=[]
     for name,score in scores.items():
-        highestscore=max(score)
+        highestscore=max(scores.values())
         for i in scores.values():
             if i==highestscore:
                 topppl.append(name)
