@@ -48,9 +48,9 @@ students={
 def menu():
     print("School attendence system")
     print("1. Take attendence")
-    print("Calculate attendence percentage for a student")
+    print("2. Calculate attendence percentage for a student")
     print("Notify low attendence")
-    print("Exit ")
+    print("Exit programme")
 
 
 min=50.0
