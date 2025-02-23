@@ -19,13 +19,17 @@ def gradestudents(answerkey,studentanswers):
 def average(scores):
     total=0
     count=0
-
     for score in scores.values():
         count+=1
         total+=score
     average=total/count
     return average
 
+def highestscorer(scores):
+    high=[]
+    for name,score in scores.items():
+        
+        
 
 
 print(gradestudents(answerkey,studentanswers))
