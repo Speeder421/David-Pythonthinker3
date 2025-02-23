@@ -28,7 +28,7 @@ def average(scores):
 
 
 print(gradestudents(answerkey,studentanswers))
-print(average(scores))
+print(average(gradestudents(answerkey,studentanswers)))
 
 
 
