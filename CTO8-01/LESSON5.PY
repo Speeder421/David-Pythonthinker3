@@ -53,8 +53,6 @@ def menu():
     print("4. Exit programme")
     
 
-print(percentage(students,student))
-print(notify(students,min))
 
 
 
