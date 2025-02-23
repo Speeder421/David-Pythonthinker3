@@ -59,6 +59,7 @@ print(notify(students,min))
 menu()
 choice=input("Enter your choice:")
 while True:
+    menu
     if choice=="1":
         updatedstudents=takeattendence(students)
         print(updatedstudents)
@@ -72,6 +73,7 @@ while True:
         break
     else:
         print("There is no such action!")
+    
 
 
 
