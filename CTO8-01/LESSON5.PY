@@ -45,6 +45,8 @@ students={
     "tom":[True,True,True],
     "bob":[False,False,False]
 }
+def menu():
+    input
 
 
 min=50.0
