@@ -28,7 +28,7 @@ def average(scores):
 def highestscorer(scores):
     
     for name,score in scores.items():
-        highestscore
+        highestscore=max(sc)
         
         
 
