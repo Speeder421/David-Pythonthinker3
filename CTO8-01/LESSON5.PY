@@ -46,7 +46,7 @@ students={
     "bob":[False,False,False]
 }
 def menu():
-    input
+    print("")
 
 
 min=50.0
