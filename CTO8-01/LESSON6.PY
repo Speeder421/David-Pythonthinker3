@@ -13,7 +13,7 @@ def gradestudents(answerkey,studentanswers):
         for i in range(len(answerkey)):
             if answer[i]==answerkey[i]:
                 score+=1
-        totalscore[student]=score
+        score[student]=score
     return scores
             
 
