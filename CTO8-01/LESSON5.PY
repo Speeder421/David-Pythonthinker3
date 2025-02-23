@@ -64,7 +64,7 @@ while True:
         print(updatedstudents)
     elif choice=="2":
         student=input("Whose attendence would you like to check?")
-        percentage(students,student)
+        print(percentage(students,student))
     elif choice=="3":
         notify(students,min)
     elif choice=="4":
