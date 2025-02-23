@@ -55,7 +55,7 @@ def menu():
 
 
 
-
+min=50.0
 while True:
     menu()
     choice=input("Enter your choice:")
