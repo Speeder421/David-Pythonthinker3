@@ -65,6 +65,7 @@ while True:
         notify(students,min)
     elif choice=="4":
         print("Exiting...")
+        break
     else:
         print("There is no such action!")
 
