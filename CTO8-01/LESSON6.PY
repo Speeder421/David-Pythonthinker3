@@ -26,9 +26,10 @@ def average(scores):
     return average
 
 def highestscorer(scores):
-    high=[]
+    
     for name,score in scores.items():
-        high.append()
+        highestscore
+        
         
 
 
