@@ -47,6 +47,7 @@ students={
 }
 def menu():
     print("School attendence system")
+    print("!")
 
 
 min=50.0
