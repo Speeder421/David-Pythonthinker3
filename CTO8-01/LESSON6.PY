@@ -19,7 +19,7 @@ def gradestudents(answerkey,studentanswers):
 def average(scores):
     total=0
     count=0
-    for score in scores.value():
+    for score in scores.values():
         count+=1
         score+=total
     average=total/count
