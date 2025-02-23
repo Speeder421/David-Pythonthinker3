@@ -16,6 +16,9 @@ def gradestudents(answerkey,studentanswers):
         scores[student]=score
     return scores
 
+def average(scores):
+    for score in scores.value():
+        score
 
 
 
