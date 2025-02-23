@@ -22,8 +22,7 @@ def average(scores):
 
     for score in scores.values():
         count+=1
-        
-        total+=temp
+        total+=score
     average=total/count
     return average
 
