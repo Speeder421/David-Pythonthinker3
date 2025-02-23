@@ -50,6 +50,7 @@ def menu():
     print("1. Take attendence")
     print("Calculate attendence percentage for a student")
     print("Notify low attendence")
+    print("Exit ")
 
 
 min=50.0
