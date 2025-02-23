@@ -77,8 +77,3 @@ while True:
 
 
 
-updatedstudents=takeattendence(students)
-print(updatedstudents)
-student=input("Whose attendence would you like to check?")
-print(percentage(students,student))
-print(notify(students,min))
