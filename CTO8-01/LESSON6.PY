@@ -23,7 +23,7 @@ def average(scores):
         count+=1
         score+=total
     total/count
-    
+    return
 
 
 
