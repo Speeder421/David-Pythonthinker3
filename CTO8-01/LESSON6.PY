@@ -38,7 +38,7 @@ def highestscorer(scores):
         
 
 
-print(gradestudents(answerkey,studentanswers))
+scores=gradestudents(answerkey,studentanswers)
 print(average(gradestudents(answerkey,studentanswers)))
 print(highestscorer(scores))
 
