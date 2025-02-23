@@ -52,9 +52,7 @@ def menu():
     print("3. Notify low attendence")
     print("4. Exit programme")
     
-updatedstudents=takeattendence(students)
-print(updatedstudents)
-student=input("Whose attendence would you like to check?")
+
 print(percentage(students,student))
 print(notify(students,min))
 
