@@ -1,6 +1,6 @@
 answerkey=["A","B","B","D"]
 studentanswers={
-    "john":[]
+    "john":["A","C"]
 }
 
 
