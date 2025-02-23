@@ -52,7 +52,11 @@ def menu():
     print("3. Notify low attendence")
     print("4. Exit programme")
     
-
+updatedstudents=takeattendence(students)
+print(updatedstudents)
+student=input("Whose attendence would you like to check?")
+print(percentage(students,student))
+print(notify(students,min))
 
 menu()
 choice=input("Enter your choice:")
@@ -69,11 +73,6 @@ while True:
     else:
         print("There is no such action!")
 
-menu()
-min=50.0
-while True:
-    action(choice)
-    menu()
 
 
 
