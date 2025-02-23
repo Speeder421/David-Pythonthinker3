@@ -40,7 +40,7 @@ def highestscorer(scores):
 
 print(gradestudents(answerkey,studentanswers))
 print(average(gradestudents(answerkey,studentanswers)))
-print(top)
+print(highestscorer(scores))
 
 
 
