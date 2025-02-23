@@ -10,7 +10,7 @@ def gradestudents(answerkey,studentanswers):
     scores={}
     for student,answer in studentanswers.items():
         for i in answer:
-            if answer[0]==answerkey[0]:
+            if answer==answerkey[0]:
                 scores[name].append(1)
     return scores
             
