@@ -40,8 +40,8 @@ def notify(students,min):
 
 
 students={
-    "John":[True,False,True],
-    "Sam":[False,True,False],
+    "john":[True,False,True],
+    "sam":[False,True,False],
     "tom":[True,True,True],
     "bob":[False,False,False]
 }
