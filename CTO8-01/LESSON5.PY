@@ -46,7 +46,7 @@ students={
     "bob":[False,False,False]
 }
 def menu():
-    print("")
+    print("School attendence system")
 
 
 min=50.0
