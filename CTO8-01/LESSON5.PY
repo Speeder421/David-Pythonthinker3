@@ -64,6 +64,8 @@ def work(choice):
             percentage(students,student)
         elif choice=="3":
             notify(students,min)
+        elif choice=="4":
+            break
 
 
 
