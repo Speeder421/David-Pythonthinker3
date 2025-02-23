@@ -56,10 +56,10 @@ def menu():
 print(percentage(students,student))
 print(notify(students,min))
 
-menu()
-choice=input("Enter your choice:")
+
+
 while True:
-    menu
+    menu()
     if choice=="1":
         updatedstudents=takeattendence(students)
         print(updatedstudents)
