@@ -66,6 +66,8 @@ def work(choice):
             notify(students,min)
         elif choice=="4":
             break
+        else:
+            
 
 
 
