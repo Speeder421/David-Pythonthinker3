@@ -32,9 +32,9 @@ def highestscorer(scores):
         for i in scores.values():
             if i==highestscore:
                 topppl.append(name)
-    
+    return topppl
 
-        
+
         
 
 
