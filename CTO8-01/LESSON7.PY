@@ -1,3 +1,3 @@
 import os
 filepath=os.getcwd()
-print()
+print(filepath)
