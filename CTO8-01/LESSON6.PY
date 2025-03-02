@@ -70,7 +70,7 @@ while True:
         print("There is no such action!")
     
 scores=gradestudents(answerkey,studentanswers)
-print(average(gradestudents(answerkey,studentanswers)))
+
 print(highestscorer(scores))
 displayscore(scores)
 
