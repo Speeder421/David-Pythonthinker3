@@ -42,6 +42,6 @@ def displayscore(scores):
 scores=gradestudents(answerkey,studentanswers)
 print(average(gradestudents(answerkey,studentanswers)))
 print(highestscorer(scores))
-d
+displayscore(scores)
 
 
