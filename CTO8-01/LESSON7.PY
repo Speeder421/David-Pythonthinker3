@@ -19,5 +19,5 @@ import os
 # file.read()
 # with open("example.txt","a") as file:
 #     file.write("\nthis will add a new line to the file")
-
+lines=["line"]
 
