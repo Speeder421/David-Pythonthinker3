@@ -33,7 +33,9 @@ def highestscorer(scores):
             topppl.append(name)
     return topppl
 
-
+def displayscore(scores):
+    for student,score in scores.items():
+        
         
 
 
