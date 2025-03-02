@@ -56,7 +56,7 @@ while True:
     choice=input("Enter your choice:")
     if choice=="1":
         scores=gradestudents(answerkey,studentanswers)
-        print("Attendence has been taken")
+        print("Quiz ")
     elif choice=="2":
         student=input("Whose attendence would you like to check?")
         print(percentage(students,student))
