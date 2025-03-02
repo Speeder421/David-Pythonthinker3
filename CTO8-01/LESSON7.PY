@@ -6,6 +6,7 @@ import os
 # else:
 #     print("it does not exist")
 # print(filepath)
-file=open("example.txt","w")   
+file=open("example.txt","w")
+file.write("")   
 
 
