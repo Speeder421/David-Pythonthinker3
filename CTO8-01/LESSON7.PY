@@ -21,5 +21,5 @@ import os
 #     file.write("\nthis will add a new line to the file")
 lines=["line1\n","line2\n","line3\n"]
 with open("example.txt","w") as file:
-    file.writ
+    file.writelines(lines)
 
