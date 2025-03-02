@@ -45,12 +45,12 @@ def menu():
     print("2. Calculate class avarage")
     print("3. Find highest scorer(s)")
     print("4. Display all results")
-    print("5")
+    print("5. Exit programme")
     
 
 
 
-min=50.0
+
 while True:
     menu()
     choice=input("Enter your choice:")
