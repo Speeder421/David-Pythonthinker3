@@ -35,13 +35,13 @@ def highestscorer(scores):
 
 def displayscore(scores):
     for student,score in scores.items():
-        print("student:")
+        print("student:score")
         
 
 
 scores=gradestudents(answerkey,studentanswers)
 print(average(gradestudents(answerkey,studentanswers)))
 print(highestscorer(scores))
-
+d
 
 
