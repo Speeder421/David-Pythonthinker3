@@ -9,9 +9,9 @@ import os
 # file=open("example.txt","w")
 # file.write("hi i am a boy")
 # file.close()  
-file=open("example.txt","r")
-content=file.read()
-print(content)
-file.close()    
+# file=open("example.txt","r")
+# content=file.read()
+# print(content)
+# file.close()    
 
 
