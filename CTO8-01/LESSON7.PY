@@ -14,5 +14,5 @@ import os
 # print(content)
 # file.close()    
 with open("example.txt","r") as file:
-    content
-
+    content=file.read()
+    
