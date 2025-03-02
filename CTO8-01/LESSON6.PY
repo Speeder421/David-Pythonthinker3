@@ -39,6 +39,36 @@ def displayscore(scores):
         print(f"{student}:{score}")
         
 
+def menu():
+    print("School attendence system")
+    print("1. Take attendence")
+    print("2. Calculate attendence percentage for a student")
+    print("3. Notify low attendence")
+    print("4. Exit programme")
+    
+
+
+
+min=50.0
+while True:
+    menu()
+    choice=input("Enter your choice:")
+    if choice=="1":
+        updatedstudents=takeattendence(students)
+        print("Attendence has been taken")
+    elif choice=="2":
+        student=input("Whose attendence would you like to check?")
+        print(percentage(students,student))
+    elif choice=="3":
+        warning=notify(students,min)
+        print(f"Students with a low attendence;{warning}")
+    elif choice=="4":
+        print("Exiting...")
+        break
+    else:
+        print("There is no such action!")
+    
+
 
 scores=gradestudents(answerkey,studentanswers)
 print(average(gradestudents(answerkey,studentanswers)))
