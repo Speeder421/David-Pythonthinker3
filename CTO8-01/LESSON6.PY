@@ -68,7 +68,6 @@ while True:
     else:
         print("There is no such action!")
     
-scores=gradestudents(answerkey,studentanswers)
 
 print(highestscorer(scores))
 displayscore(scores)
