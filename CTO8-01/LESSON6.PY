@@ -34,8 +34,8 @@ def highestscorer(scores):
     return topppl
 
 def displayscore(scores):
+    print("Class results: ")
     for student,score in scores.items():
-        
         print(f"{student}:{score}")
         
 
