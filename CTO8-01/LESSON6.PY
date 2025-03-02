@@ -40,7 +40,7 @@ def displayscore(scores):
         
 
 def menu():
-    print("")
+    print("Quiz Grading System Menu")
     print("1. Take attendence")
     print("2. Calculate attendence percentage for a student")
     print("3. Notify low attendence")
