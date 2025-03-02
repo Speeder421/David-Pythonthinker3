@@ -55,7 +55,7 @@ while True:
     menu()
     choice=input("Enter your choice:")
     if choice=="1":
-        updatedstudents=takeattendence(students)
+        
         print("Attendence has been taken")
     elif choice=="2":
         student=input("Whose attendence would you like to check?")
@@ -69,8 +69,6 @@ while True:
     else:
         print("There is no such action!")
     
-
-
 scores=gradestudents(answerkey,studentanswers)
 print(average(gradestudents(answerkey,studentanswers)))
 print(highestscorer(scores))
