@@ -64,7 +64,8 @@ while True:
     elif choice=="4":
         displayscore(scores)
     elif choice=="5":
-        print("")
+        print("Exiting programme....")
+        break
     else:
         print("There is no such action!")
     
