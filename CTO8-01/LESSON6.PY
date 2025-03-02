@@ -42,7 +42,7 @@ def displayscore(scores):
 def menu():
     print("Quiz Grading System Menu")
     print("1. Grade all students")
-    print("2. ")
+    print("2. Calculate class avarage")
     print("3. Notify low attendence")
     print("4. Exit programme")
     
