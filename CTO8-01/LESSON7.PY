@@ -9,8 +9,8 @@ import os
 # file=open("example.txt","w")
 # file.write("hi i am a boy")
 # file.close()  
-file=open("example.txt","w")
-file.write("hi i am a boy")
+file=open("example.txt","r")
+file.write
 file.close()    
 
 
