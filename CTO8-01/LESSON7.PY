@@ -10,7 +10,7 @@ import os
 # file.write("hi i am a boy")
 # file.close()  
 file=open("example.txt","r")
-file.write
+content=file.read()
 file.close()    
 
 
