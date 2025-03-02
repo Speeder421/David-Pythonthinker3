@@ -17,5 +17,7 @@ import os
 #     content=file.read()
 #     print(content)
 # file.read()
-with open("example.txt","a") as file:
-    file.write("\nthis will add a new line to the file")
+# with open("example.txt","a") as file:
+#     file.write("\nthis will add a new line to the file")
+
+
