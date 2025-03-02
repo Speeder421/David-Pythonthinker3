@@ -60,8 +60,7 @@ while True:
     elif choice=="2":
         print(average(gradestudents(answerkey,studentanswers)))
     elif choice=="3":
-        warning=notify(students,min)
-        print(f"Students with a low attendence;{warning}")
+        print(highestscorer(scores))
     elif choice=="4":
         print("Exiting...")
         break
@@ -69,7 +68,7 @@ while True:
         print("There is no such action!")
     
 
-print(highestscorer(scores))
+
 displayscore(scores)
 
 
