@@ -63,6 +63,8 @@ while True:
         print(highestscorer(scores))
     elif choice=="4":
         displayscore(scores)
+    elif choice=="5":
+        print("")
     else:
         print("There is no such action!")
     
