@@ -35,6 +35,7 @@ def highestscorer(scores):
 
 def displayscore(scores):
     for student,score in scores.items():
+        print("C")
         print(f"{student}:{score}")
         
 
