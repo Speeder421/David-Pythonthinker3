@@ -8,6 +8,9 @@ import os
 # print(filepath)
 # file=open("example.txt","w")
 # file.write("hi i am a boy")
-# file.close()   
+# file.close()  
+file=open("example.txt","w")
+file.write("hi i am a boy")
+file.close()    
 
 
