@@ -58,8 +58,7 @@ while True:
         scores=gradestudents(answerkey,studentanswers)
         print("Quiz graded")
     elif choice=="2":
-        student=input("Whose attendence would you like to check?")
-        print(percentage(students,student))
+        print(average(gradestudents(answerkey,studentanswers)))
     elif choice=="3":
         warning=notify(students,min)
         print(f"Students with a low attendence;{warning}")
