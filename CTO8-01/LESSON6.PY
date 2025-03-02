@@ -62,13 +62,12 @@ while True:
     elif choice=="3":
         print(highestscorer(scores))
     elif choice=="4":
-        print("Exiting...")
-        break
+        displayscore(scores)
     else:
         print("There is no such action!")
     
 
 
-displayscore(scores)
+
 
 
