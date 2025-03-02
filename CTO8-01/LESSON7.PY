@@ -6,6 +6,6 @@ import os
 # else:
 #     print("it does not exist")
 # print(filepath)
-file=opfn()
+file=open()
 
 
