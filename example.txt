@@ -1,2 +1,4 @@
-hi i am a boy
-this will add a new line to the file
+line1
+line2
+line3
+end
