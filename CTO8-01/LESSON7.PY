@@ -24,4 +24,4 @@ with open("example.txt","w") as file:
     file.writelines(lines)
     file.write("end")
 with open("example.txt","r") as file:
-    content
+    content=file.read()
