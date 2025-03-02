@@ -44,7 +44,7 @@ def menu():
     print("1. Grade all students")
     print("2. Calculate class avarage")
     print("3. Find highest scorer(s)")
-    print("4. ")
+    print("4. Display ")
     
 
 
