@@ -18,4 +18,4 @@ import os
 #     print(content)
 # file.read()
 with open("example.txt","a") as file:
-    file.write()
+    file.write("this will add a new line to the file")
