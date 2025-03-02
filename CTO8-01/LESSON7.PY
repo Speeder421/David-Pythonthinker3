@@ -1,2 +1,3 @@
 import os
-filepath=os.get
+filepath=os.getcwd()
+print()
