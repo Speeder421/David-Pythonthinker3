@@ -43,8 +43,8 @@ def menu():
     print("Quiz Grading System Menu")
     print("1. Grade all students")
     print("2. Calculate class avarage")
-    print("3. Find highest score")
-    print("4. Exit programme")
+    print("3. Find highest scorer(s)")
+    print("4. ")
     
 
 
