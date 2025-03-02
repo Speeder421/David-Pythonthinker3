@@ -55,7 +55,7 @@ while True:
     menu()
     choice=input("Enter your choice:")
     if choice=="1":
-        
+        scores=gradestudents(answerkey,studentanswers)
         print("Attendence has been taken")
     elif choice=="2":
         student=input("Whose attendence would you like to check?")
