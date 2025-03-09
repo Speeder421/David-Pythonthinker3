@@ -9,7 +9,7 @@
 # print(my_list)
 
 
-
+nums={}
 A1
 B3
 C3
