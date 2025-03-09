@@ -9,7 +9,7 @@
 # print(my_list)
 
 
-nums={}
+nums={"A":1,"B":3}
 A1
 B3
 C3
