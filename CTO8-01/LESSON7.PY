@@ -1,4 +1,4 @@
-import os
+# import os
 # filepath=os.getcwd()
 # fullpath=os.path.join(filepath,"example.txt")
 # if os.path.exists(fullpath):
@@ -23,6 +23,6 @@ import os
 # with open("example.txt","w") as file:
 #     file.writelines(lines)
 #     file.write("end")
-# with open("example.txt","r") as file:
-#     content=file.read()
-#     print(content)
+with open("example.txt","r") as file:
+    content=file.readlines()
+    print(content)
